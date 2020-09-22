@@ -1,6 +1,7 @@
 require_relative 'AnalisadorLinha'
 
-lines = IO.readlines('text.txt')
+# lines = IO.readlines('text.txt')
+lines = File.open('text.txt')
 
 instances_array = Array.new
 line_number = 0
